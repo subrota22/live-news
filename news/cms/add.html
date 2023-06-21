@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Add User  </title>
+</head>
+<body>
+    <form action="add.php" method="post">
+        <input type="text" name="fname"/>
+        <br>
+        <input type="text" name="lname"/>
+        <br>
+        <input type="text" name="username" />
+        <br>
+        <input type="email" name="email"/>
+        <br>
+        <input type="password" name="password"/>
+        <br>
+        <select name="role">
+            <option selected disabled> Select your roll </option>
+      <option > Moderator </option>
+      <option > Admin </option>
+        </select>
+        <br>
+        <input type="submit" name="log_in" value="add_user"/>
+    </form>
+</body>
+</html>

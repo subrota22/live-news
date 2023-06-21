@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CSS Link -->
+    <link rel="stylesheet" href="search-design.css"/>
+    <!--Bootstrap Link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> content division </title>
+</head>
+<body class="body">
+
+
+<!--search form start -->
+<div  class="div-right">
+    <div  id="border"></div>
+    <form  metod="post" action="search_news.php" class="was-validated w-100">
+    <div class="input-left">
+     <input type="search"   class="form-control" 
+        
+        placeholder="Search by title" name="text-search"  required/>
+ 
+    </div>
+   <div class="input-right">
+    <input type="submit" value="Search" name="search" class="btn btn-info" /> 
+ 
+   </div>
+    </form> 
+</div>
+<!--search form end -->
+
+
+<!--post image , title , description start -->
+<div   class="div-left">
+    <center> 
+<h2  class="caption"> <caption> What is bootstrap ? </caption> </h2>
+</center>
+<br>      
+<img  src="picture/u.jpg" alt="user post" id="image" />      
+
+        <div class="text">
+           Bootstrap is an responsive design for website......
+        </div>
+        <br>
+        <div class="btn">
+            <button class="btn btn-success">Read Mord</button>
+        </div>
+
+</div>
+<!--post image , title , description end -->  
+
+
+</body>
+</html>

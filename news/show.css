@@ -1,0 +1,51 @@
+
+.body{
+    background-attachment: fixed;
+    background-size:cover;
+    background-image:url("picture/f2.jpg");
+    padding: 12px;
+}
+#header{
+    text-align: right;
+    background-color: rgba(33, 219, 8, 0.7);
+    padding: 12px;
+}
+#h2{
+    color: lime;
+    font-family: cursive;
+    line-height: -10px;
+}
+#pad{
+margin: 41px;
+}
+#td{
+background-color: royalblue; 
+padding: 12px;
+}
+#right-side{
+text-align: right;
+height: 48px;
+
+}
+#text-content{
+color: rgb(212, 166, 14);
+font-size: x-large;
+padding: 12px;
+font-family: inherit;
+font-weight: lighter;
+text-align: right;
+width: 345px;
+height: auto;
+background-color: blueviolet;
+}
+#text-content:hover{
+border: 3px solid blue;
+color: rgb(11, 12, 12);
+width: fit-content;
+background-color: rgba(10, 130, 2,0.6);
+}
+
+#image:hover{
+transform: scale(0.7);
+transition-duration: 2s ;
+}

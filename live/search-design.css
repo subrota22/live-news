@@ -1,0 +1,69 @@
+/*div position start*/
+.div-left{
+    width: 60%;
+    background-color: darkcyan;
+    float: left;
+    height: 356px;
+    width: 378px;
+    margin: 45px;
+    padding: 24px;
+}
+.div-right{
+    width: 40%;
+    background-color: rgb(32, 139, 0);
+    float: right;
+    height: 126px;
+    width: 378px;
+    padding:22px;
+    margin-top: 45px;
+
+} 
+/* div  position end*/
+
+/*search div  strat*/
+.input-left{
+    width: 70%;
+    float: left;
+    margin-top: 12px;
+    padding: 5px;
+}
+
+/*search div  end*/
+.body{
+    background-color: rgb(35, 13, 56);
+}
+.div4{
+    height: 375px;
+    border: 2px solid rgb(180, 13, 13);
+    width: 375px;
+    background-color: blueviolet;
+    align-items: center;
+    transition: 2s;
+    border-radius: 4px;
+}
+.div4:hover{
+    transform: scale(0.8);
+}
+/*div start*/
+.text{
+    text-align: center;
+    font-size: large;
+    color: rgb(228, 231, 235);
+     
+}
+.caption{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(161, 15, 40);
+}
+#border{
+    width: 10px;
+     height: 100px; 
+     background-color: rgb(10, 188, 233);
+     float: left;
+}
+.btn{
+    float: right;
+    margin-top: 15px;
+}
+/*div ends*/

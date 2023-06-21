@@ -1,0 +1,122 @@
+
+#div{
+    width: fit-content;
+    height: fit-content;
+    padding: 12px;
+    color: rgb(12, 165, 12);
+    font-size: large;
+    font-family: cursive;
+}
+#div2{
+    background-color: #00ffcc;  
+    height:auto;
+    width: 445px;
+    text-align: center; 
+}
+#div2:hover{
+    background-color: rgba(34,56,78,0.7);
+    transition-duration: 2s;
+}
+#body{
+    padding: 12px;
+    word-wrap: break-word;
+    background-color: rgb(12, 152, 195);
+}
+
+.text{
+    color:darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-wrap: inherit;
+}
+.button{
+    float: left;
+
+}
+.col-md-2{
+    text-align-last: left;
+}
+.picture{
+    width: 245px;
+}
+#table{
+  padding: 45px;
+    width: 745px;
+}
+#txt{
+    height: 40px;
+}
+#search{
+    width: 233px;
+}
+#div32{
+    height: 124px;
+    width: 125px;
+    background-color: chartreuse;
+    padding: 24px;
+    margin: 25px;
+}
+#one{
+    padding: 45px;
+    margin: 45px;
+}
+#two{
+    margin: 45px;
+    padding: 45px;
+}
+#div3{
+    background-color: #09ff00;  
+    height:auto;
+    width: 605px;
+    padding: 10px;
+    margin: 10px;
+    transition: 3s;
+}
+#div3:hover{
+    border: 3px solid blue;
+    transform: scale(1.4);
+}
+#bd{
+    background-attachment: fixed;
+    background-image: url("picture/f2.jpg");
+    background-size: cover;
+    padding: 12px;
+}
+#div4{
+    background-color: #00ff40;  
+    height:auto;
+    width: 605px;
+}
+#div4:hover{
+    border: 3px solid chartreuse;
+    transition-duration: 1s;
+}
+#bd4{
+    background-attachment: fixed;
+    background-image: url("picture/p6.jpg");
+    background-size: cover;
+    padding: 12px;
+}
+#image{
+    height: 128px;
+     width: 129px;
+}
+#image:hover{
+    transform: scale(1.5);
+    border: 2px solid blue;
+    transition-duration: 2s;
+}
+#div6{
+    background-color: #00ff40;  
+    height:auto;
+    width: 780px;
+}
+.image-style{
+    height: 128px; 
+    width: 129px;
+     border:2px solid blue; 
+     transition: 3s;
+}
+.image-style:hover{
+    transform: scale(1.2)
+}

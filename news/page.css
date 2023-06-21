@@ -1,0 +1,46 @@
+
+#div{
+    width: 245px;
+    height: auto;
+    padding: 12px;
+    color: rgb(12, 165, 12);
+    font-size: large;
+    font-family: cursive;
+}
+
+#body{
+    padding: 12px;
+    word-wrap: break-word;
+    background-color: rgb(12, 152, 195);
+}
+
+.text{
+    color:darkblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-wrap: inherit;
+    width: 261px;
+}
+.col-md-2{
+    text-align-last: left;
+}
+.picture{
+    width: 245px;
+}
+#table{
+  padding: 45px;
+    width: 745px;
+}
+#txt{
+    height: 40px;
+}
+#search{
+    width: 233px;
+}
+#div32{
+    height: 124px;
+    width: 125px;
+    background-color: chartreuse;
+    padding: 24px;
+    margin: 25px;
+}
